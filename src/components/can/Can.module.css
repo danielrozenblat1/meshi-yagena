@@ -1,0 +1,87 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px #44444448;
+  width: 200px;
+  margin:20px auto;
+  background: #d47979;
+}
+
+.icon {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: right;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-family: "AssistantR";
+}
+
+/* Responsive styles */
+@media (max-width: 350px) {
+  .box {
+      width: 80%;
+      padding: 8px;
+  }
+  .icon {
+      width: 40%;
+  }
+  .title {
+      font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .box {
+      width:220px;
+      padding: 9px;
+  }
+  .icon {
+      width: 45%;
+  }
+  .title {
+      font-size: 1rem;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .box {
+      width: 200px
+  }
+  .title {
+      font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+  .box {
+      width: 190px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+  .box {
+      width: 195px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+  .box {
+      width: 200px;
+  }
+}
+
+@media (min-width: 850px)and (max-width: 950px) {
+  .box {
+      width: 180px;
+      margin :2% auto
+  }
+}
