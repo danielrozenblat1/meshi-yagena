@@ -2,7 +2,7 @@ import styles from "./WhoFits.module.css"
 import { useEffect, useRef } from "react";
 import { Player } from "@lordicon/react";
 
-import fit from "../../Icons/wired-outline-1774-strength.json"
+import fit from "../../Icons/wired-outline-1774-strength (1).json"
 
 import ScrollReveal from "scrollreveal";
 import Button from "../newButton/Button";

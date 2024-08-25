@@ -4,6 +4,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 1% auto;
+    color:white;
     direction: rtl;
     width: 70%;
 }
@@ -12,7 +13,8 @@
     font-size: 2rem;
     font-family: "Assistant";
     text-align: center;
-    margin: 2% auto;
+    margin: 0 auto 2%;
+    color:white;
     direction: rtl;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

@@ -1,6 +1,6 @@
 import Dumbbell from "../components/dumble/Dumble"
 import styles from "./ForthScreen.module.css"
-import dumble from "../Icons/wired-outline-1774-strength (1).json"
+import dumble from "../Icons/wired-outline-1774-strength.json"
 import Can from "../components/can/Can"
 const ForthScreen=()=>{
 

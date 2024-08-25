@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0.5% auto;
+    
     justify-content: space-evenly;
 }
 
@@ -10,9 +11,14 @@
     font-size: 4rem;
     font-family: "Assistant";
     text-align: center;
-    margin: 1% auto;
+    margin: 2% auto;
     direction: rtl;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #ffe7e7, #f6a6c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 /* Responsive design */

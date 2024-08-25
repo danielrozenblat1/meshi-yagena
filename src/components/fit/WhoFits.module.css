@@ -5,7 +5,7 @@
 
 .checkmark {
   font-size: 30px; 
-  color: black; 
+  color: pink; 
 }
 
 .wrapY {
@@ -29,8 +29,9 @@
   align-items: flex-start;
   justify-content: flex-start;
   direction: rtl;
-  width: 100%;
-  padding: 10px 20px;
+  width: 85%;
+  color:white;
+  padding: 15px 20px;
 }
 
 .title {
@@ -38,6 +39,7 @@
   font-family: "Assistant";
   text-align: center;
   margin: 2% auto;
+  color:white;
   justify-content: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -46,6 +48,7 @@
   font-size: 2rem;
   font-family: "Assistant";
   text-align: center;
+  color:white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -66,7 +69,7 @@
   
     .checkmark{
       font-size: 30px; 
-      color: black; 
+      color: pink; 
     }
   
   
@@ -75,7 +78,7 @@
       flex-direction: column; /* כל wrap יהיה בעמודה */
       align-items: center; /* יישור התוכן במרכז של wrap */
       justify-content: center;
-      /* box-shadow:  0 0 8px 1px black;  */
+      /* box-shadow:  0 0 8px 1px pink;  */
       width:90%;
       border-radius: 20px;
     }
@@ -139,7 +142,7 @@
   
     .checkmark{
       font-size: 30px; 
-      color: black; 
+      color: pink; 
     }
   
   
@@ -148,7 +151,7 @@
       flex-direction: column; /* כל wrap יהיה בעמודה */
       align-items: center; /* יישור התוכן במרכז של wrap */
       justify-content: center;
-      /* box-shadow:  0 0 8px 1px black;  */
+      /* box-shadow:  0 0 8px 1px pink;  */
       width:90%;
       border-radius: 20px;
     }
@@ -214,7 +217,7 @@
   
     .checkmark{
       font-size: 30px; 
-      color: black; 
+      color: pink; 
     }
   
   
@@ -223,7 +226,7 @@
       flex-direction: column; /* כל wrap יהיה בעמודה */
       align-items: center; /* יישור התוכן במרכז של wrap */
       justify-content: center;
-      /* box-shadow:  0 0 8px 1px black;  */
+      /* box-shadow:  0 0 8px 1px pink;  */
       width:90%;
       border-radius: 20px;
     }
@@ -287,7 +290,7 @@
   
     .checkmark{
       font-size: 30px; 
-      color: black; 
+      color: pink; 
     }
   
   
@@ -296,7 +299,7 @@
       flex-direction: column; /* כל wrap יהיה בעמודה */
       align-items: center; /* יישור התוכן במרכז של wrap */
       justify-content: center;
-      /* box-shadow:  0 0 8px 1px black;  */
+      /* box-shadow:  0 0 8px 1px pink;  */
       width:80%;
       border-radius: 20px;
     }
@@ -360,7 +363,7 @@
   
     .checkmark{
       font-size: 30px; 
-      color: black; 
+      color: pink; 
     }
   
   
@@ -369,7 +372,7 @@
       flex-direction: column; /* כל wrap יהיה בעמודה */
       align-items: center; /* יישור התוכן במרכז של wrap */
       justify-content: center;
-      /* box-shadow:  0 0 8px 1px black;  */
+      /* box-shadow:  0 0 8px 1px pink;  */
       width:70%;
       border-radius: 20px;
     }
@@ -433,7 +436,7 @@
   
     .checkmark{
       font-size: 30px; 
-      color: black; 
+      color: pink; 
     }
   
   
@@ -442,7 +445,7 @@
       flex-direction: column; /* כל wrap יהיה בעמודה */
       align-items: center; /* יישור התוכן במרכז של wrap */
       justify-content: center;
-      /* box-shadow:  0 0 8px 1px black;  */
+      /* box-shadow:  0 0 8px 1px pink;  */
       width:50%;
       border-radius: 20px;
     }
@@ -506,7 +509,7 @@
   
     .checkmark{
       font-size: 30px; 
-      color: black; 
+      color: pink; 
     }
   
   
@@ -515,7 +518,7 @@
       flex-direction: column; /* כל wrap יהיה בעמודה */
       align-items: center; /* יישור התוכן במרכז של wrap */
       justify-content: center;
-      /* box-shadow:  0 0 8px 1px black;  */
+      /* box-shadow:  0 0 8px 1px pink;  */
       width:35%;
       border-radius: 20px;
     }

@@ -20,7 +20,7 @@
   text-align: center;
   font-size: 1.3rem;
   margin-bottom: 2rem;
-  color: #333;
+  color: #ffffff;
 }
 
 .optionsWrapper {
@@ -61,7 +61,7 @@
   margin-bottom: 0.7rem;
   position: relative;
   padding-right: 1.2rem;
-  color: #333;
+  color: #d6d6d6;
   font-family: "AssistantR";
 }
 
@@ -82,7 +82,7 @@
 }
 
 .bonus p {
-  color: #333;
+  color: #000000;
   font-weight: bold;
   text-align: center;
   font-family: "AssistantR";
@@ -93,7 +93,7 @@
   padding: 1.5rem;
   background: rgba(255, 221, 220, 0.637);
   border-radius: 15px;
-  color: #333;
+  color: #202020;
   text-align: center;
 }
 

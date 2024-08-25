@@ -2,12 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: 0 0 5px 1px #44444448;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #e79c9c9c;
+  box-shadow: 0 5px 15px rgba(255, 219, 219, 0.649);
+  
+  
+
   width: 200px;
   margin:20px auto;
-  background: #d47979;
+
 }
 
 .icon {
@@ -19,7 +23,7 @@
 
 .title {
   text-align: right;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin-top: 10px;
   font-size: 1.1rem;
   font-family: "AssistantR";

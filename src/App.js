@@ -11,6 +11,7 @@ import BasicAccordion from './components/questions/Akordion';
 import Recommends from './components/recommends/Recommends';
 import AboutMe from './components/me/Me';
 import { useEffect, useState } from 'react';
+import FifthScreen from './screens/FifthScreen';
 
 function App() {
 
@@ -46,7 +47,7 @@ function App() {
   <TrainingOptions/>
 
   <ForthScreen/>
- 
+ <FifthScreen/>
   <BasicAccordion/>
   <ByMe/>
   </>
