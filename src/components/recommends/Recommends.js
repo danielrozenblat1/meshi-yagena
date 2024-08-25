@@ -113,7 +113,7 @@ return <>
           ))}
         </Slider>
       </div>
-<Button text="משי, בואי נדבר"/>
+<Button text="בואי נדבר"/>
 
 </>
 

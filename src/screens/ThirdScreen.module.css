@@ -46,6 +46,7 @@
 .optionTitle {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+  text-align: center;
   background: linear-gradient(135deg, #c27373 0%, rgb(179, 111, 107) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -83,6 +84,7 @@
 .bonus p {
   color: #333;
   font-weight: bold;
+  text-align: center;
   font-family: "AssistantR";
 }
 
@@ -92,6 +94,7 @@
   background: rgba(255, 221, 220, 0.637);
   border-radius: 15px;
   color: #333;
+  text-align: center;
 }
 
 .cta {

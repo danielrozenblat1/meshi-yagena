@@ -41,9 +41,10 @@ function App() {
   <SecondScreen/>
   <AboutMe/>
   <Recommends/>
+  
+  <WhoFits/>
   <TrainingOptions/>
 
-  <WhoFits/>
   <ForthScreen/>
  
   <BasicAccordion/>

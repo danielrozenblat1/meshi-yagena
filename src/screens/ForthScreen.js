@@ -6,7 +6,7 @@ const ForthScreen=()=>{
 
 
     return <>
-    <div className={styles.title}>יחד נשים סוף ל</div>
+    <div className={styles.title}>יחד נשים סוף ל:</div>
     <div className={styles.row}>
 <Can title="פציעות באימונים" icon={dumble}/>
 <Can title="תזונה לא מאוזנת" icon={dumble}/>

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import TextTransition, { presets } from "react-text-transition";
 import styles from "./FirstScreen.module.css";
-import meshi from "../images/משי יגנה.png";
+import meshi from "../images/משי יגנה תמונת תדמית.png";
 
 const TEXTS = [
   "בניית תוכניות אימון",
   "ליווי אונליין",
-  "יעוץ תזונה"
+  "ייעוץ תזונה"
 ];
 
 const FirstScreen = (props) => {
@@ -22,16 +22,17 @@ const FirstScreen = (props) => {
 
   return (
     <>
-      <div className={props.scrolled ? styles.descriptionP : styles.description}>רוצה להשיג את גוף החלומות שלך? </div>
-      <div className={styles.description}>רוצה להתחזק ולשבור מחסומים? (פיזים ומנטלים)</div>
-      <div className={styles.center}><img className={styles.image} src={meshi} alt="משי יגנה"/></div>
+      <div className={props.scrolled ? styles.descriptionP : styles.description}>מה אם הייתי אומרת לך שאני יכולה לעזור לך להשיג את גוף החלומות שלך, להתחזק ולשבור מחסומים פיזיים ומנטליים ולהתגבר על החששות מאוכל?</div>
+
       <h1 className={styles.title}>משי יגנה</h1>
+      
+      <div className={styles.center}><img className={styles.image} src={meshi} alt="משי יגנה"/></div>
       <h2 className={styles.job}>
         <TextTransition springConfig={presets.wobbly} inline className={styles.textTransition}>
           {TEXTS[index % TEXTS.length]}
         </TextTransition>
       </h2>
-      <div className={styles.description}>הייתי באותו מקום כמוך ולכן אני מכירה את כל התחושות הנלוות לאיפה שאת/ה נמצא/ת עכשיו</div>
+      <div className={styles.description}>הייתי באותו מקום כמוך ולכן אני מכירה את כל התחושות הנלוות לאיפה שאת נמצאת עכשיו</div>
     </>
   );
 }

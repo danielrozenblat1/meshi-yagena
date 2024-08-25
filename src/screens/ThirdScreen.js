@@ -5,8 +5,8 @@ import Button from '../components/newButton/Button';
 const TrainingOptions = () => {
   return (
     <div className={styles.container} id="המסלולים שלי">
-      <p className={styles.mainTitle}>מוכנים להתחיל?</p>
-      <p className={styles.subtitle}>ככה זה עובד:</p>
+      <p className={styles.mainTitle}>איך זה עובד</p>
+    
       
       <div className={styles.optionsWrapper}>
         <div className={styles.option}>
@@ -21,26 +21,27 @@ const TrainingOptions = () => {
         </div>
         
         <div className={styles.option}>
-          <h3 className={styles.optionTitle}>אימוני אונליין</h3>
+          <h3 className={styles.optionTitle}>אימוני אונליין 1:1</h3>
           <ul className={styles.optionList}>
             <li>נעשה שיחת ייעוץ בטלפון או בזום, אבין את המטרות שלך, הלו״ז שלך ואבנה תוכנית אימונים מותאמת ומפורטת.</li>
             <li>אני במעקב על ביצוע האימונים, הטכניקה, ההצלחות והקשיים בדרך.</li>
             <li>אני זמינה לך לכל שאלה, התייעצות ותמיכה</li>
+            <li>פגישות בזום למעקב ועידכונים</li>
           </ul>
           
         </div>
       </div>
       
       <div className={styles.commonInfo}>
-        <h3>בכל מסלול:</h3>
-        <p>אני תמיד כאן לעזור לך עם ההתמדה והמשמעת העצמית והכי חשוב, אדאג שתאהבי את התהליך ותהני מהדרך אני כאן בשבילך לאורך כל הדרך</p>
+        <h3>בכל מסלול שרק תבחרי:</h3>
+        <p>אני כאן כל הזמן בכדי לעזור לך עם ההתמדה והמשמעות העצמית, והכי חשוב, אדאג שתאהבי את התהליך ותהני מהדרך, כי מניסיון – זה מה שמשנה הכי הרבה!</p>
       </div>
       
       <div className={styles.cta}>
 
-        <h3 className={styles.subtitle}>מוכנה לצאת לדרך חדשה?</h3>
+        <h3 className={styles.subtitle}>מוכנה לשמוע עוד?</h3>
  <Button text="מעניין אותי לשמוע על האימונים הפרונטלים" message="היי משי, אשמח לשמוע עוד על האימונים הפרונטלים"/>
- <Button text="מעניין אותי לשמוע על האימונים הדיגיטלים" message="היי משי, אשמח לשמוע עוד על האימונים הדיגיטלים"/>
+ <Button text="מעניין אותי לשמוע על הליווי אונליין" message="היי משי, אשמח לשמוע עוד על האימונים הדיגיטלים"/>
       </div>
     </div>
   );
