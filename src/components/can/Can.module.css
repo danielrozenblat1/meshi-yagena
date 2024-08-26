@@ -58,7 +58,7 @@
 
 @media (min-width: 450px) and (max-width: 550px) {
   .box {
-      width: 200px
+      width: 190px
   }
   .title {
       font-size: 1.1rem;
