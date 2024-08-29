@@ -85,7 +85,7 @@ const Recommends=()=>{
     
         ];  
 return <>
-<div className={styles.title} id="מתאמנים ממליצים">קצת ממה שיש למתאמנים שלי להגיד..</div>
+<div className={styles.title} id="מתאמנים ממליצים">קצת ממה שיש למתאמנים שלי להגיד</div>
 <div className={styles.explain}>תחליקי בין התמונות</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
